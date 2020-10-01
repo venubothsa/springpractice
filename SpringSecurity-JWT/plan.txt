@@ -1,0 +1,28 @@
+create Spring project with web, Security
+ 
+Create hello world resource
+
+Login 
+ 
+create a configuration file extends Web Security configurer Adapter
+
+in configure method pass user details which will be from ourUserDetailService .
+
+add default user in  ourUserDetailService provided by spring Security.
+
+with empty list of authorities.
+
+add bean in SecurityConfig for return NoOpPasswordEncoder.getInstance();
+
+
+
+Static user login completed
+ 
+Now we will add Jwt 
+
+create Request
+Response
+copy jwtutil
+and jwtfilter
+
+now configure for jwt 
